@@ -1,0 +1,13 @@
+name: http_query_string
+description: HTTP RFC compliant query string encoder and decoder, compatible with the PHP & jQuery traditional syntax for nested array/objects and multidimensional arrays
+version: 1.0.0
+homepage: https://github.com/evaisse/dart_http_query_string
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  args: ^2.0.0
+
+dev_dependencies:
+  test: ^1.21.1
