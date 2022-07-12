@@ -83,8 +83,7 @@ class Decoder extends Converter<String, Map<String, dynamic>> {
 
   bool _isListKey(String key) {
     try {
-      int.parse(key);
-      return true;
+      return int.tryParse(key)!=null;
     } catch (e) {
       return false;
     }
